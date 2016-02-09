@@ -1,4 +1,4 @@
-update=Tue 09 Feb 2016 11:38:14 AEDT
+update=Tue 09 Feb 2016 13:28:45 AEDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=Teensy-3.1-master/teensy_3.1
+LibName31=sfh3711
+LibName32=cd74hc4067
