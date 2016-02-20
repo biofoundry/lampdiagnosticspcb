@@ -146,10 +146,6 @@ F 3 "" H 5100 4350 50  0000 C CNN
 	1    5100 4350
 	1    0    0    -1  
 $EndComp
-Text GLabel 4675 3350 1    60   Input ~ 0
-VIN
-Text GLabel 3025 1150 2    60   Input ~ 0
-VIN
 $Comp
 L POT RV1
 U 1 1 56B99053
@@ -183,8 +179,6 @@ F 3 "" H 3900 3425 50  0000 C CNN
 	1    3900 3425
 	1    0    0    -1  
 $EndComp
-Text GLabel 5425 1550 1    60   Input ~ 0
-VIN
 Text GLabel 1025 1600 0    60   Input ~ 0
 T2
 Text GLabel 1025 1750 0    60   Input ~ 0
@@ -414,8 +408,6 @@ F 3 "" H 5150 6375 50  0000 C CNN
 $EndComp
 Text GLabel 5150 6075 0    60   Input ~ 0
 TEMP_S
-Text GLabel 5125 5925 0    60   Input ~ 0
-VIN
 $Comp
 L CL520 U4
 U 1 1 56BA8B71
@@ -438,8 +430,6 @@ F 3 "" H 6650 5625 50  0000 C CNN
 	1    6650 5625
 	1    0    0    -1  
 $EndComp
-Text GLabel 6050 5275 0    60   Input ~ 0
-VIN
 $Comp
 L CONN_01X02 P2
 U 1 1 56BA95A4
@@ -638,10 +628,6 @@ Wire Wire Line
 Wire Wire Line
 	1275 4350 1200 4350
 Wire Wire Line
-	5125 5925 5150 5925
-Wire Wire Line
-	5150 5925 5150 5975
-Wire Wire Line
 	7275 1375 7275 4325
 Connection ~ 7275 1375
 Wire Wire Line
@@ -746,10 +732,6 @@ Wire Wire Line
 Wire Wire Line
 	7950 3500 7950 3125
 Connection ~ 7950 3125
-Text GLabel 7600 3950 1    60   Input ~ 0
-VIN
-Text GLabel 8100 3950 1    60   Input ~ 0
-VIN
 $Comp
 L GND #PWR12
 U 1 1 56C80768
@@ -782,5 +764,85 @@ F 2 "" H 8100 4050 50  0000 C CNN
 F 3 "" H 8100 4050 50  0000 C CNN
 	1    8100 4050
 	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 56C854BA
+P 8100 3950
+F 0 "#PWR?" H 8100 3800 50  0001 C CNN
+F 1 "+3.3V" H 8100 4090 50  0000 C CNN
+F 2 "" H 8100 3950 50  0000 C CNN
+F 3 "" H 8100 3950 50  0000 C CNN
+	1    8100 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 56C85644
+P 7600 3950
+F 0 "#PWR?" H 7600 3800 50  0001 C CNN
+F 1 "+3.3V" H 7600 4090 50  0000 C CNN
+F 2 "" H 7600 3950 50  0000 C CNN
+F 3 "" H 7600 3950 50  0000 C CNN
+	1    7600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 56C856E8
+P 5350 1500
+F 0 "#PWR?" H 5350 1350 50  0001 C CNN
+F 1 "+3.3V" H 5350 1640 50  0000 C CNN
+F 2 "" H 5350 1500 50  0000 C CNN
+F 3 "" H 5350 1500 50  0000 C CNN
+	1    5350 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1500 5350 1550
+Connection ~ 5350 1550
+$Comp
+L +3.3V #PWR?
+U 1 1 56C86F91
+P 3025 1450
+F 0 "#PWR?" H 3025 1300 50  0001 C CNN
+F 1 "+3.3V" H 3025 1590 50  0000 C CNN
+F 2 "" H 3025 1450 50  0000 C CNN
+F 3 "" H 3025 1450 50  0000 C CNN
+	1    3025 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 56C888B3
+P 4675 3350
+F 0 "#PWR?" H 4675 3200 50  0001 C CNN
+F 1 "+3.3V" H 4675 3490 50  0000 C CNN
+F 2 "" H 4675 3350 50  0000 C CNN
+F 3 "" H 4675 3350 50  0000 C CNN
+	1    4675 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 56C89220
+P 6050 5275
+F 0 "#PWR?" H 6050 5125 50  0001 C CNN
+F 1 "+3.3V" H 6050 5415 50  0000 C CNN
+F 2 "" H 6050 5275 50  0000 C CNN
+F 3 "" H 6050 5275 50  0000 C CNN
+	1    6050 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 56C892C4
+P 5150 5975
+F 0 "#PWR?" H 5150 5825 50  0001 C CNN
+F 1 "+3.3V" H 5150 6115 50  0000 C CNN
+F 2 "" H 5150 5975 50  0000 C CNN
+F 3 "" H 5150 5975 50  0000 C CNN
+	1    5150 5975
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
