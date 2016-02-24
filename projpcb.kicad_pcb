@@ -434,7 +434,7 @@
   )
 
   (module LEDs:LED_0805 (layer F.Cu) (tedit 55BDE1C2) (tstamp 56C7E78D)
-    (at 180 117.5)
+    (at 234.095001 148.185)
     (descr "LED 0805 smd package")
     (tags "LED 0805 SMD")
     (path /56C93232)
@@ -470,7 +470,7 @@
   )
 
   (module LEDs:LED_0805 (layer F.Cu) (tedit 55BDE1C2) (tstamp 56C7E7A0)
-    (at 187.5 117.5)
+    (at 185 117.5)
     (descr "LED 0805 smd package")
     (tags "LED 0805 SMD")
     (path /56C93309)
@@ -506,7 +506,7 @@
   )
 
   (module LEDs:LED_0805 (layer F.Cu) (tedit 55BDE1C2) (tstamp 56C7E7B3)
-    (at 195 117.5)
+    (at 190 117.5)
     (descr "LED 0805 smd package")
     (tags "LED 0805 SMD")
     (path /56C9384A)
