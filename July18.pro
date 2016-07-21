@@ -1,6 +1,6 @@
-update=18/07/2016 7:27:25 PM
+update=21/07/2016 1:25:13 PM
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -10,7 +10,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=
+LibDir=../lampdiagnosticspcb;C:/Users/z3294776/Desktop/BioInf/BioHack/lampdiagnosticspcb
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -41,10 +41,11 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=ncr405u
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=projpcb.net
+LastNetListRead=July21.net
 PadDrill=0.6
 PadDrillOvalY=0.6
 PadSizeH=1.5
