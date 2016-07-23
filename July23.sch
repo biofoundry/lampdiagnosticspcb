@@ -28,7 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:projpcb-cache
+LIBS:sfh3710
+LIBS:July23-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
