@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP SFH3710
+D 160V Vce, 0.05A Ic, Audio High Voltage NPN Transistor, TO-92
+K Audio High Voltage NPN Transistor
+$ENDCMP
+#
 #End Doc Library
