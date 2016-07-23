@@ -1,5 +1,7 @@
 # lampdiagnosticspcb
-PCB Design for the LAMP Diagnostics device
+PCB Design for the LAMP Diagnostics device. Datasheets can be found in the Datasheet folder.
+
+ My frist KiCAD project, sorry for any errors!
 
 Based on a device built by Frank B. Myers, Richard H. Henrikson,Jennifer Bone and Luke P. Lee
 
