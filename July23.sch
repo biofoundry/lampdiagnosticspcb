@@ -184,7 +184,7 @@ F 1 "100nF" H 4200 3125 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4213 3075 50  0001 C CNN
 F 3 "" H 4175 3225 50  0000 C CNN
 	1    4175 3225
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L C C3
@@ -1191,10 +1191,10 @@ Wire Wire Line
 	4175 3775 4175 3650
 Connection ~ 4175 3650
 $Comp
-L GND #PWR?
+L GND #PWR038
 U 1 1 5797FF63
 P 4175 3375
-F 0 "#PWR?" H 4175 3125 50  0001 C CNN
+F 0 "#PWR038" H 4175 3125 50  0001 C CNN
 F 1 "GND" H 4175 3225 50  0000 C CNN
 F 2 "" H 4175 3375 50  0000 C CNN
 F 3 "" H 4175 3375 50  0000 C CNN
@@ -1222,4 +1222,8 @@ Wire Wire Line
 	4950 3750 4875 3750
 Text Label 3700 3650 0    60   ~ 0
 Amp_Out
+Text Notes 3600 2300 0    60   ~ 0
+Teensy can supply us 3v3?
+Text Notes 5850 3750 0    60   ~ 0
+TODO: Check grounding of fills
 $EndSCHEMATC
