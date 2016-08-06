@@ -1222,6 +1222,10 @@ Wire Wire Line
 	4950 3750 4875 3750
 Text Label 3700 3650 0    60   ~ 0
 Amp_Out
+Text Notes 3600 2300 0    60   ~ 0
+Teensy can supply us 3v3?
+Text Notes 5850 3750 0    60   ~ 0
+TODO: Check grounding of fills
 $Comp
 L LM358 U2
 U 2 1 579A3B44
